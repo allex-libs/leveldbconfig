@@ -1,0 +1,21 @@
+{
+  "name": "allex_leveldbconfiglib",
+  "version": "1.0.0",
+  "description": "AllexJS lib for a LevelDB persisted configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.hers.rs:allex_libs/leveldbconfig.git"
+  },
+  "keywords": [
+    "ecosystem:AllexJS",
+    "leveldb",
+    "config",
+    "lib"
+  ],
+  "author": "HERS Belgrade",
+  "license": "ISC"
+}
