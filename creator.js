@@ -1,8 +1,9 @@
-function createLib (execlib, LevelDBWithLog) {
+function createLib (execlib, leveldbwithloglib) {
   'use strict';
 
   var lib = execlib.lib,
     q = lib.q,
+    LevelDBWithLog = leveldbwithloglib.LevelDBWithLog,
     LevelDBConfigMixin = require('./mixincreator')(execlib, LevelDBWithLog);
 
   function LevelDBConfig (prophash) {
